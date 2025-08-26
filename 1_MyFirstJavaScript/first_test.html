@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First JavaScript</title>
+    <!-- CSS específico desta pasta -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🚀 My First JavaScript</h1>
+    <h2>Exemplos Básicos e Interativos</h2>
+
+    <!-- Exemplo 1: Data e Hora -->
+    <div class="example-box">
+        <h3>📅 Exemplo 1: Data e Hora Dinâmica</h3>
+        <button type="button" onclick="showDateTime()">
+            🕐 Mostrar Data e Hora
+        </button>
+        <div id="demo" class="result-area"></div>
+    </div>
+
+    <!-- Exemplo 2: Mensagens Personalizadas -->
+    <div class="example-box">
+        <h3>✨ Exemplo 2: Mensagens Motivacionais</h3>
+        <button type="button" onclick="showPersonalizedMessage()">
+            💬 Mensagem Aleatória
+        </button>
+        <div id="message" class="result-area"></div>
+    </div>
+
+    <!-- Exemplo 3: Mudança de Cor -->
+    <div class="example-box sparkle">
+        <h3>🎨 Exemplo 3: Caixa Colorida Interativa</h3>
+        <button type="button" onclick="changeStyle()">
+            🌈 Mudar Cor
+        </button>
+        <div id="colorBox" title="Clique em mim também!"></div>
+        <p style="text-align: center; color: #666; font-size: 0.9em; margin-top: 10px;">
+            💡 Dica: Você também pode clicar diretamente na caixa!
+        </p>
+    </div>
+
+    <!-- Exemplo 4: Calculadora -->
+    <div class="example-box">
+        <h3>🧮 Exemplo 4: Calculadora Simples</h3>
+        <div style="text-align: center; margin: 20px 0;">
+            <input type="number" id="number1" placeholder="Número 1" />
+            
+            <select id="operation" style="padding: 10px; margin: 0 10px; border-radius: 5px; border: 2px solid #bdc3c7;">
+                <option value="add">➕ Somar</option>
+                <option value="subtract">➖ Subtrair</option>
+                <option value="multiply">✖️ Multiplicar</option>
+                <option value="divide">➗ Dividir</option>
+            </select>
+            
+            <input type="number" id="number2" placeholder="Número 2" />
+        </div>
+        
+        <div style="text-align: center;">
+            <button type="button" onclick="calculateNumbers()">
+                🔢 Calcular
+            </button>
+        </div>
+        
+        <div id="calculation" class="result-area"></div>
+    </div>
+
+    <!-- Botões Utilitários -->
+    <div class="example-box" style="text-align: center;">
+        <h3>🛠️ Ferramentas Extras</h3>
+        <button type="button" onclick="clearAll()" style="background: linear-gradient(45deg, #e74c3c, #c0392b); margin: 0 10px;">
+            🧹 Limpar Tudo
+        </button>
+        <button type="button" onclick="showJSInfo()" style="background: linear-gradient(45deg, #2ecc71, #27ae60); margin: 0 10px;">
+            ℹ️ Sobre JS
+        </button>
+    </div>
+
+    <!-- Informações -->
+    <div class="example-box" style="background: linear-gradient(135deg, #667eea, #764ba2); color: white; text-align: center;">
+        <h3 style="color: white;">🎯 Como Usar</h3>
+        <ul style="text-align: left; max-width: 500px; margin: 0 auto; line-height: 1.8;">
+            <li>🕐 <strong>Data:</strong> Atualiza automaticamente a cada segundo</li>
+            <li>💬 <strong>Mensagens:</strong> Clique para ver frases motivacionais</li>
+            <li>🎨 <strong>Cores:</strong> Clique no botão ou na caixa para mudar</li>
+            <li>🧮 <strong>Calculadora:</strong> Use Enter para calcular rapidamente</li>
+            <li>🔍 <strong>Console:</strong> Pressione F12 para ver logs detalhados</li>
+        </ul>
+    </div>
+</div>
+
+<!-- JavaScript específico desta pasta -->
+<script src="script.js"></script>
+
+</body>
+</html> 
