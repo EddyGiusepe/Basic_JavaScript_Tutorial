@@ -48,6 +48,13 @@ npm init -y
 # Instalar como dependência de desenvolvimento
 npm install --save-dev live-server
 ```
+
+ou 
+
+```bash
+npm install --save-dev http-server
+```
+
 **O que acontece:** 
 - ✅ Instala servidor de desenvolvimento
 - ✅ Cria pasta `node_modules`, para armazenar as dependências do projeto
@@ -159,7 +166,7 @@ body {
 
 ## ▶️ **Como Executar o Projeto**
 
-### **Iniciar o servidor de desenvolvimento:**
+### **Iniciar o servidor de desenvolvimento (com Node.js):**
 ```bash
 npm run dev
 ```
@@ -171,6 +178,18 @@ http://localhost:3000
 **ou**
 ```
 http://127.0.0.1:3000
+
+ou
+
+http://localhost:3000/first_test.html
+```
+
+``NOTA:`` 
+
+Sem usar o ``Node.js``, ou seja sem o arquivo ``package.json``, o comando para iniciar o servidor local simples é (executa dentro da pasta do projeto):
+
+```bash
+python3 -m http.server 3000
 ```
 
 ---
