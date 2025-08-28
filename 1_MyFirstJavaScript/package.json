@@ -1,0 +1,20 @@
+{
+  "name": "1_myfirstjavascript",
+  "version": "1.0.0",
+  "main": "main.js",
+  "scripts": {
+    "start": "live-server --open=first_test.html",
+    "dev": "live-server --port=3000 --open=first_test.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  },
+  "dependencies": {
+    "phaser": "^3.90.0"
+  }
+}
